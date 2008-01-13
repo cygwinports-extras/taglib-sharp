@@ -8,18 +8,18 @@ handling all the different cases, so all you have to do is access
 file.Tag.Title, file.Tag.Lyrics, or file.Tag.Pictures.
 
 Runtime requirements:
-  mono-1.2.3.1-2
+  mono-1.2.6-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-1
+  cygwin-1.5.25-7
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
-  cygport-0.3.1-1
-  gawk-3.1.5-4
+  cygport-0.3.7-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   make-3.81-1
-  mono-tools-1.2.3-1
+  mono-tools-1.2.6-1
   pkg-config-0.21-1
   sed-4.1.5-2
 
@@ -32,15 +32,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack taglib-sharp-2.0.1-X-src.tar.bz2
+  unpack taglib-sharp-2.0.2.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./taglib-sharp-2.0.1-X.cygport all
+  cygport ./taglib-sharp-2.0.2.0-X.cygport all
 
 This will create:
-  /usr/src/taglib-sharp-2.0.1-X-src.tar.bz2
-  /usr/src/taglib-sharp-2.0.1-X.tar.bz2
+  /usr/src/taglib-sharp-2.0.2.0-X-src.tar.bz2
+  /usr/src/taglib-sharp-2.0.2.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -48,24 +48,27 @@ Files included in the binary package:
 
   /usr/lib/mono/gac/policy.2.0.taglib-sharp/0.0.0.0__db62eba44689b5b0/policy.2.0.taglib-sharp.config
   /usr/lib/mono/gac/policy.2.0.taglib-sharp/0.0.0.0__db62eba44689b5b0/policy.2.0.taglib-sharp.dll
-  /usr/lib/mono/gac/taglib-sharp/2.0.1.0__db62eba44689b5b0/taglib-sharp.dll
-  /usr/lib/mono/gac/taglib-sharp/2.0.1.0__db62eba44689b5b0/taglib-sharp.dll.mdb
+  /usr/lib/mono/gac/taglib-sharp/2.0.2.0__db62eba44689b5b0/taglib-sharp.dll
+  /usr/lib/mono/gac/taglib-sharp/2.0.2.0__db62eba44689b5b0/taglib-sharp.dll.mdb
   /usr/lib/mono/taglib-sharp/taglib-sharp.dll
   /usr/lib/monodoc/sources/taglib-sharp-docs.source
   /usr/lib/monodoc/sources/taglib-sharp-docs.tree
   /usr/lib/monodoc/sources/taglib-sharp-docs.zip
   /usr/lib/pkgconfig/taglib-sharp.pc
-  /usr/share/doc/Cygwin/taglib-sharp-2.0.1.README
-  /usr/share/doc/taglib-sharp-2.0.1/AUTHORS
-  /usr/share/doc/taglib-sharp-2.0.1/COPYING
-  /usr/share/doc/taglib-sharp-2.0.1/ChangeLog
-  /usr/share/doc/taglib-sharp-2.0.1/INSTALL
-  /usr/share/doc/taglib-sharp-2.0.1/NEWS
-  /usr/share/doc/taglib-sharp-2.0.1/README
+  /usr/share/doc/Cygwin/taglib-sharp-2.0.2.0.README
+  /usr/share/doc/taglib-sharp-2.0.2.0/AUTHORS
+  /usr/share/doc/taglib-sharp-2.0.2.0/COPYING
+  /usr/share/doc/taglib-sharp-2.0.2.0/ChangeLog
+  /usr/share/doc/taglib-sharp-2.0.2.0/INSTALL
+  /usr/share/doc/taglib-sharp-2.0.2.0/NEWS
+  /usr/share/doc/taglib-sharp-2.0.2.0/README
 
 ------------------
 
 Port Notes:
+
+----- version 2.0.2.0-1 -----
+Version bump.
 
 ----- version 2.0.1-1 -----
 Initial release for Cygwin.
