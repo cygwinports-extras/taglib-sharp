@@ -1,0 +1,9 @@
+inherit mono
+
+DESCRIPTION=".NET audio metadata library"
+HOMEPAGE="http://developer.novell.com/wiki/index.php/TagLib_Sharp"
+SRC_URI="http://download.banshee-project.org/taglib-sharp/${PV}/${P}.tar.gz"
+PATCH_URI="2.0.2.0-destdir.patch"
+
+PKG_NAMES="${PN} mono-${PN}2.0"
+mono_taglib_sharp2_0_CONTENTS="usr/"

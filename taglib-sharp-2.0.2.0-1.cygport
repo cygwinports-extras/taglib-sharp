@@ -1,7 +1,0 @@
-inherit mono
-
-DESCRIPTION=".NET audio metadata library"
-HOMEPAGE="http://www.taglib-sharp.com/"
-SRC_URI="http://www.taglib-sharp.com/Download/${P}.tar.gz"
-
-USE_MANAGED_MOUNT=1

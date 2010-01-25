@@ -1,6 +1,5 @@
-category: Dotnet Audio
-requires: mono
-sdesc: "Mono audio metadata library"
+category: DotNET
+sdesc: "Mono audio metadata library (sources)"
 ldesc: "TagLib# is a FREE and Open Source library for the .NET 2.0 and 
 Mono frameworks which will let you tag your software with as much or as 
 little detail as you like without slowing you down. It supports a large 
